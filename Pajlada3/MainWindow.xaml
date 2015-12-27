@@ -1,0 +1,14 @@
+﻿<Window x:Class="Pajlada3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        Title="MainWindow"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        IsHitTestVisible="False">
+    <Grid>
+        <cefSharp:ChromiumWebBrowser Grid.Row="0"
+        Name="web"/>
+    </Grid>
+</Window>
